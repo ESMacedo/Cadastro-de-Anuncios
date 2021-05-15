@@ -29,6 +29,7 @@ Para o CRUD foi implementado o recurso de busca ou consulta através do nome com
       );
       
 4. No NetBeans, execute o arquivo "TelaPrincipal.java" que está dentro do pacote "br.com.anuncios.telas".
+
 Obs.: Caso seja necessário fazer alterações de servidor, usuário ou senha do banco de dados, esses ajustes poderão ser feitos na classe "Anuncios.java" que está dentro do pacote "br.com.anuncios.beans". Faça os ajustes dentro do método "getConexao".
 
 
