@@ -10,13 +10,14 @@ Para o CRUD foi implementado o recurso de busca ou consulta através do nome com
 
 ## Tecnologias utilizadas:
 
-MySQL 8.0, Java
++ MySQL 8.0;
++ Java
 
 ## Como compilar e executar o sistema:
 
-+ 1. Abra o projeto no software de desenvolvimento NetBeans IDE 8.2;
-+ 2. Crie um banco de dados chamado "db_anuncios" utilzando MySQL 8.0, use o servidor padrão "localhost", defina o usuário como "root" e defina a senha como "1234";
-+ 3. Crie dentro do banco de dados "db_anuncios" uma tabela chamada "ANUNCIOS" com a seguinte estrutura:
+1. Abra o projeto no software de desenvolvimento NetBeans IDE 8.2;
+2. Crie um banco de dados chamado "db_anuncios" utilzando MySQL 8.0, use o servidor padrão "localhost", defina o usuário como "root" e defina a senha como "1234";
+3. Crie dentro do banco de dados "db_anuncios" uma tabela chamada "ANUNCIOS" com a seguinte estrutura:
       
       create table ANUNCIOS (
       ID_ANUNCIO int auto_increment primary key,
@@ -27,7 +28,7 @@ MySQL 8.0, Java
       VLR_INVESTIDO_DIA float
       );
       
-+ 4. No NetBeans, execute o arquivo "TelaPrincipal.java" que está dentro do pacote "br.com.anuncios.telas".
+4. No NetBeans, execute o arquivo "TelaPrincipal.java" que está dentro do pacote "br.com.anuncios.telas".
 Obs.: Caso seja necessário fazer alterações de servidor, usuário ou senha do banco de dados, esses ajustes poderão ser feitos na classe "Anuncios.java" que está dentro do pacote "br.com.anuncios.beans". Faça os ajustes dentro do método "getConexao".
 
 
@@ -36,7 +37,7 @@ Obs.: Caso seja necessário fazer alterações de servidor, usuário ou senha do
 
 Com o sistema em execução...
 
-1. Formulário de Cadastro - para abrir o Formulário de Cadastro, na barra de menu superior, clique no menu "Cadastro" e em seguida selecione a opção "Anúncios" ou use as teclas de atalho "Alt+A";
+1) Formulário de Cadastro - para abrir o Formulário de Cadastro, na barra de menu superior, clique no menu "Cadastro" e em seguida selecione a opção "Anúncios" ou use as teclas de atalho "Alt+A";
 
 1.1. Cadastrar - caso não existam dados cadastrados, preencha os campos do formulário de cadastro e em seguida clique no botão "Adicionar" (botão com o sinal de mais);
 
